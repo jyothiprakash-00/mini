@@ -1,0 +1,144 @@
+footer {
+  margin-top: 50px;
+  background:#060c0f;
+  color: #fff;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+footer h1 {
+  font-size: 12px;
+  margin: 25px 0;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+footer p {
+  font-size: 12px;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+.copyright {
+  margin-bottom: -80px;
+  text-align: center;
+  font-size: 10px;
+  padding-bottom: 40px;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+footer hr {
+  margin-top: 10px;
+  background-color: #ccc;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+.media {
+  margin: -20px 0;
+}
+
+.media ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.aueb,
+.eclass,
+.fb,
+.insta {
+  margin-top: .625em;
+  width: 40px;
+  height: 40px;
+  opacity: .6;
+  border-radius: 25px;
+}
+
+.fb:hover,
+.insta:hover,
+.aueb:hover,
+.eclass:hover {
+  opacity: 1.0;
+}
+
+input[type="reset"] {
+  
+  background-color: rgb(60, 0, 255);
+  padding: 0 5px;
+  font-size: 19px;
+  border: none !important;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+footer .row a:any-link {
+  text-decoration: none;
+  color: white;
+}
+
+footer .row a:hover {
+  color: rgb(51, 0, 255);
+  font-family: 'Big Shoulders Text', cursive;
+}
+.about-section {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+
+}
+.section-intro {
+	height: 700px;
+	background-image: url(https://media.istockphoto.com/id/930281684/photo/dogs-and-cats-peeking-over-web-banner.jpg?b=1&s=170667a&w=0&k=20&c=7xTAKfruaO6nLhQMpx9r0kHm_CSuHJ0SNHZKVrGU9lM=);
+	background-size:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: center;
+  
+
+}
+.section-intro h1 {
+	text-align: center;
+	color: #000;
+	font-size: 4em;
+	font-weight: 700;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+.link-to-book {
+  
+	color:#000;
+	display:flex;
+	border: 2px solid #000;
+	padding: 5px 50px;
+  font-family: 'Big Shoulders Text', cursive;
+  text-decoration: none;
+  bottom: 5%;
+  right: 45%;
+  position: absolute;
+
+  
+}
+.about-section p,
+.about-section h3 {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+a.link-to-book:hover {
+	background-color:#000;
+	color: #95999e;
+	text-decoration: none;
+}
+
+.btn-primary{
+  font-size: 16px;
+  font-family: 'Big Shoulders Text', cursive;
+  
+
+}
+
+.card-title{
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 25px;
+}
+.btn-dark:hover{
+  background-color:blue;
+}

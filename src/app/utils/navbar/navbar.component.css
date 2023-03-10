@@ -1,0 +1,47 @@
+nav ul li{
+
+    padding : 0 20px 0 3px;
+    
+    }
+    /* for dropdowns only */
+    .dropdown-menu {
+        background-color:#000000;
+        font-family: 'Big Shoulders Text', cursive;
+    }
+    
+/* dropdown item text color */
+.dropdown-item {
+    color:#eeeeee;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+/* dropdown item hover or focus */
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #eeeeee;
+    background-color:blue;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+/* change the link color */
+ .nav-link {
+    color:#eeeeee;
+    font-family: 'Big Shoulders Text', cursive;}
+
+.cart
+{
+  margin-top: .625em;
+  width: 40px;
+  height: 40px;
+  opacity: .6;
+  border-radius: 25px;
+  
+  
+}
+
+.cart:hover{
+  opacity: 1.0;
+
+}
+
+
