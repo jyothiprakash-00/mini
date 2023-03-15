@@ -6,13 +6,13 @@ nav ul li{
     /* for dropdowns only */
     .dropdown-menu {
         background-color:#000000;
-        font-family: 'Big Shoulders Text', cursive;
+      font-family:'Times New Roman', Times, serif;
     }
     
 /* dropdown item text color */
 .dropdown-item {
     color:#eeeeee;
-    font-family: 'Big Shoulders Text', cursive;
+  font-family:'Times New Roman', Times, serif;
 }
 
 /* dropdown item hover or focus */
@@ -20,13 +20,13 @@ nav ul li{
 .dropdown-item:focus {
     color: #eeeeee;
     background-color:blue;
-    font-family: 'Big Shoulders Text', cursive;
+  font-family:'Times New Roman', Times, serif;
 }
 
 /* change the link color */
  .nav-link {
     color:#eeeeee;
-    font-family: 'Big Shoulders Text', cursive;}
+  font-family:'Times New Roman', Times, serif;}
 
 .cart
 {

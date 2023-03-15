@@ -4,11 +4,13 @@
     margin: auto;
     text-align: center;
     font-family: arial;
+     font-family:'Times New Roman', Times, serif;
   }
   
  
   .price :hover {
     background-color: black;
+     font-family:'Times New Roman', Times, serif;
   }
   
   .card button {
@@ -20,6 +22,7 @@
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+     font-family:'Times New Roman', Times, serif;
   }
   
   .card button:hover {

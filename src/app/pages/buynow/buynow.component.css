@@ -4,6 +4,7 @@
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     margin: 0 -16px;
+    font-family:'Times New Roman', Times, serif;
   }
   
   .col-25 {
@@ -32,6 +33,7 @@
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
+    font-family:'Times New Roman', Times, serif;
   }
   
   input[type=text] {
@@ -40,6 +42,7 @@
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    font-family:'Times New Roman', Times, serif;
   }
   
   label {
@@ -63,6 +66,7 @@
     border-radius: 3px;
     cursor: pointer;
     font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
   }
   
   .btn:hover {
