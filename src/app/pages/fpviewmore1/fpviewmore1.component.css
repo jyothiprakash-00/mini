@@ -1551,8 +1551,7 @@ body {
             display: none;
           }
         }
-        .aueb,
-        .eclass,
+        
         .fb,
         .insta {
           margin-top: .625em;
@@ -1567,4 +1566,12 @@ body {
         .aueb:hover,
         .eclass:hover {
           opacity: 1.0;
+        }
+        .fb1,
+        .insta1 {
+          margin-top: .625em;
+          width: 30px;
+          height: 30px;
+          opacity: .6;
+          border-radius: 25px;
         }

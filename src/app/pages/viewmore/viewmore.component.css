@@ -4,7 +4,14 @@ body {
 
 img {
   max-width: 100%; }
-
+  .fb1,
+  .insta1 {
+    margin-top: .625em;
+    width: 30px;
+    height: 30px;
+    opacity: .6;
+    border-radius: 25px;
+  }
 .preview {
   display: -webkit-box;
   display: -webkit-flex;

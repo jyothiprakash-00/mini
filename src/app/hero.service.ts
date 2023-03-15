@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { aquarium, birdcage, birdfood, birdgrooming, catfood, catgrooming, cattoy, dogfoods, doggrooming, dogtoy, fishfood, plant } from 'src/assets/data/data';
+import { aquarium, bcviewmore1, bfviewmore1, bgviewmore1, birdcage, birdfood, birdgrooming, catfood, catgrooming, cattoy, cfviewmore1, cgviewmore1, ctviewmore1, dfviewmore1, dogfoods, doggrooming, dogtoy, dtviewmore1, faviewmore1, ffviewmore1, fishfood, fpviewmore1, plant, viewmore1 } from 'src/assets/data/data';
 import { AquariumsupplyComponent } from './pages/fish/aquariumsupply/aquariumsupply.component';
 @Injectable({
   providedIn: 'root'
@@ -68,6 +68,66 @@ getData12()
 
 {
   return plant
+}
+getData13()
+
+{
+  return dfviewmore1
+}
+getData14()
+
+{
+  return dtviewmore1
+}
+getData15()
+
+{
+  return viewmore1
+}
+getData16()
+
+{
+  return cfviewmore1
+}
+getData17()
+
+{
+  return cgviewmore1
+}
+getData18()
+
+{
+  return ctviewmore1
+}
+getData19()
+
+{
+  return bfviewmore1
+}
+getData20()
+
+{
+  return bgviewmore1
+}
+getData21()
+
+{
+  return bcviewmore1
+}
+getData22()
+
+{
+  return ffviewmore1
+}
+getData23()
+
+{
+  return fpviewmore1
+}
+getData24()
+
+{
+  return faviewmore1
 }
 
 }
