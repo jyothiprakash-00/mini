@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "jyothi-f72ff": {
+      "hosting": {
+        "PETSHOP": [
+          "jyothi-f72ff"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "jyothi-f72ff"
+  }
+}

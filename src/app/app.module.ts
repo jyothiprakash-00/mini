@@ -64,6 +64,13 @@ import { Faviewmore1Component } from './pages/faviewmore1/faviewmore1.component'
 import { Fpviewmore1Component } from './pages/fpviewmore1/fpviewmore1.component';
 
 import { BuynowComponent } from './pages/buynow/buynow.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { provideRemoteConfig,getRemoteConfig } from '@angular/fire/remote-config';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 
 
@@ -151,7 +158,13 @@ import { BuynowComponent } from './pages/buynow/buynow.component';
     AppRoutingModule,
     BrowserAnimationsModule,
    
-    FormsModule
+    FormsModule,
+        provideFirebaseApp(() => initializeApp(environment.firebase)),
+        provideAuth(() => getAuth()),
+        provideDatabase(() => getDatabase()),
+        provideFirestore(() => getFirestore()),
+        provideRemoteConfig(() => getRemoteConfig()),
+        provideStorage(() => getStorage())
 
   ],
   providers: [],
