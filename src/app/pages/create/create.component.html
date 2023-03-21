@@ -30,7 +30,7 @@
                                     <img src="https://image.shutterstock.com/image-vector/mail-icon-260nw-523869661.jpg" width="30px" height="30px">
                                 </span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Your E-mail Address">
+                            <input type="text" name ="email" [(ngModel)]="email" class="form-control" placeholder="Your E-mail Address" >
                         </div>
                         <br>
                         <div class="input-group form-group">
@@ -39,7 +39,7 @@
                                   <img src="https://img.icons8.com/glyph-neue/1x/password1.png" width="30px" height="30px">
                               </span>
                           </div>
-                          <input type="password" class="form-control" placeholder="password">
+                          <input type="password" name ="password"  [(ngModel)]="password" class="form-control" placeholder="password"  >
                       </div>
                       <br>
                       <div class="input-group form-group">
@@ -62,7 +62,7 @@
 </form>
     <div class="form-group">
       <button type="button" value="Login" class="btn1">Cancel</button>
-      <button type="button" value="Login" class="btn2">Sign Up</button>
+      <button type="button" value="Login" class="btn2" (click)="create()">Sign Up</button>
     </div>
   </div>
 </div>
