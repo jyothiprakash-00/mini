@@ -7,50 +7,45 @@
             <div class="col-50">
               <h3>Billing Address</h3>
               <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-              <input type="text" id="fname" name="firstname" >
+              <input type="text" id="fname" name="firstname"  autofocus [(ngModel)]="name">
               <label for="email"><i class="fa fa-envelope"></i> Email</label>
-              <input type="text" id="email" name="email">
+              <input type="text" id="email" name="email" autofocus [(ngModel)]="email">
               <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-              <input type="text" id="adr" name="address" >
+              <input type="text" id="adr" name="address" autofocus [(ngModel)]="address">
               <label for="city"><i class="fa fa-institution"></i> City</label>
-              <input type="text" id="city" name="city">
+              <input type="text" id="city" name="city" autofocus [(ngModel)]="city">
   
               <div class="row">
                 <div class="col-50">
                   <label for="state">State</label>
-                  <input type="text" id="state" name="state" >
+                  <input type="text" id="state" name="state" autofocus [(ngModel)]="state" >
                 </div>
                 <div class="col-50">
                   <label for="zip">Zip</label>
-                  <input type="text" id="zip" name="zip" >
+                  <input type="text" id="zip" name="zip" autofocus [(ngModel)]="zip">
                 </div>
               </div>
             </div>
   
             <div class="col-50">
-              <h3>Payment</h3>
-              <label for="fname">Accepted Cards</label>
-              <div class="icon-container">
-                <i class="fa fa-cc-visa" style="color:navy;"></i>
-                <i class="fa fa-cc-amex" style="color:blue;"></i>
-                <i class="fa fa-cc-mastercard" style="color:red;"></i>
-                <i class="fa fa-cc-discover" style="color:orange;"></i>
-              </div>
+              <h3>Payment Information</h3>
+              
+            
               <label for="cname">Name on Card</label>
-              <input type="text" id="cname" name="cardname">
+              <input type="text" id="cname" name="cardname" autofocus [(ngModel)]="cardname">
               <label for="ccnum">Credit card number</label>
-              <input type="text" id="ccnum" name="cardnumber">
+              <input type="text" id="ccnum" name="cardnumber" autofocus [(ngModel)]="cardnumber">
               <label for="expmonth">Exp Month</label>
-              <input type="text" id="expmonth" name="expmonth">
+              <input type="text" id="expmonth" name="expmonth" autofocus [(ngModel)]="expmonth">
   
               <div class="row">
                 <div class="col-50">
                   <label for="expyear">Exp Year</label>
-                  <input type="text" id="expyear" name="expyear">
+                  <input type="text" id="expyear" name="expyear" autofocus [(ngModel)]="expyear">
                 </div>
                 <div class="col-50">
                   <label for="cvv">CVV</label>
-                  <input type="text" id="cvv" name="cvv" >
+                  <input type="text" id="cvv" name="cvv" autofocus [(ngModel)]="cvv" >
                 </div>
               </div>
             </div>
